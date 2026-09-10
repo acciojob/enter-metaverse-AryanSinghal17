@@ -3,7 +3,7 @@ const partag = document.getElementById("status");
 const versebtn = document.getElementById("enterBtn");
 
 versebtn.addEventListener("click",()=>{
-  const newText = partag.textContent;
+  const newText = "Entered Metaverse";
 
   partag.innerHTML = `<h1>${newText}</h1>`;
 });
